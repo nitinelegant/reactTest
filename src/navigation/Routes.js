@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, BrowserRouter as Router } from "react-router-dom";
-import Login from "../components/authentication/Login";
-
+import { Login } from "../components/authentication/index";
 const Routes = ({ history }) => {
   return (
     <Router>
