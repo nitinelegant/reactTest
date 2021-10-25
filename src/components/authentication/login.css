@@ -1,0 +1,10 @@
+.login_background_image {
+  background-image: url("/src/assets/images/bbimage.jpg");
+  background-size: cover !important;
+  height: 500px !important;
+  width: 100% !important;
+  background-repeat: no-repeat, repeat;
+}
+.login_card {
+  text-align: center;
+}
