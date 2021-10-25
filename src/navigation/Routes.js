@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, BrowserRouter as Router } from "react-router-dom";
-import SignIn from "../components/authentication/SignIn";
+import Login from "../components/authentication/Login";
 
 const Routes = ({ history }) => {
   return (
     <Router>
-      <Route exact path="/" component={() => <SignIn history={history} />} />
+      <Route exact path="/" component={() => <Login history={history} />} />
     </Router>
   );
 };
